@@ -55,9 +55,11 @@ body {
 }
 header {
     background-color: rgb(6, 60, 41);
+    height: 72px;
+    line-height: 72px;
 }
 h1 {
-    display: inline-block;
+    float: left;
     width: 30%;
     font-size: 36px;
     color: rgb(245, 170, 7);
@@ -66,7 +68,7 @@ h1 {
     text-transform: uppercase;
 }
 nav {
-    display: inline-block;
+    float: right;
     width: 60%;
     text-align: right;
 }
@@ -75,15 +77,16 @@ nav a {
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
+    text-transform: uppercase;
     padding: .5em;
 }
-main {
+.main {
     background-color: rgb(87, 81, 81);
 }
 section {
     margin: 2em auto;
 }
-article {
+.col {
     width: 30%;
     margin: .65em;
     padding: .5em;
@@ -121,7 +124,7 @@ img {
 .clearfix::after {
     clear: both;
 }
-footer {
+.footer {
     background-color: rgb(6, 60, 41);
     color: grey;
     text-align: center;
