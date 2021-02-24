@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CUSTOM STYLES */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+/* CLEARFIX */
+.clearffix::before, .clearffix::after {
+    content: "";
+    display: table;
+}
+.clearffix::after {
+    clear: both;
+}
+/* BODY */
+body {
+    background-color: rgb(237, 237, 238);
+}
+/* CONTAINER */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+/* HEADER */
+.header {
+    background-color: cornflowerblue;
+    height: 82px;
+    width: 100%;
+    line-height: 82px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logo-container {
+    width: 30%;
+    height: 80px;
+    display: inline-block;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+}
+.main-nav {
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.main-nav a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .5em;
+}
+.main {
+    margin-top: 85px;
+}
+.top-section {
+    vertical-align: top;
+}
+/* COLUUMNS */
+.col {
+    width: 45%;
+    float: left;
+    margin: 2%;
+}
+.col h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: .5em;
+    padding: .5em;
+}
+.col p {
+    font-size: 18px;
+    margin-top: .5em;
+}
+.col img {
+    width: 100%;
+    height: 350px;
+}
+
+/* PHOTO GALLERY */
+.gallery {
+    margin-top: 1em;
+}
+.gallery h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: .5em;
+  padding: .56em;
+}
+.img-col {
+    width: 30%;
+    float: left;
+    margin: 1.25%;
+}
+.img-col h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: .25em;
+    padding: .25em;
+}
+.img-col img {
+    width: 100%;
+    height: 350px;
+}
+.empty {
+    clear: both;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.small {
+    font-size: 12px;
+    color: rgb(34, 27, 27);
+}
+.footer a {
+     text-decoration: none;
+     color: rgb(253, 251, 251);
+     background-color: rgb(6, 13, 48);
+     padding: em;
+     border-radius: 30px;
+     position: fixed;
+     z-index: 1;
+     right: 0;
+     bottom: 0;
+}

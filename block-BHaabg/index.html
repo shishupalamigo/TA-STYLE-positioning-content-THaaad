@@ -1,0 +1,108 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment II Galery Layout | Positioning Content</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+</head>
+<body id="top">
+    <header class="header">
+        <div class="container clearfix">
+            <div class="logo-container">
+                <img id="logo" src="assets/media/logo.png" alt=" Company Logo" class="logo">
+            </div><!--
+            --><nav class="main-nav">
+                <a href="Index.html">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>         
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="top-section">
+            <div class="container clearfix">
+                <article class="col">
+                    <h1>Tasty Food</h1>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Impedit possimus modi nisi dolor deserunt beatae doloribus 
+                        sunt, quam amet nihil tempore. Quasi vel, temporibus, 
+                        dolorum, atque impedit dicta eius iste natus vero fuga ipsa 
+                        provident facilis repellat rem possimus nobis? Aspernatur 
+                        inventore nesciunt dolore quae quos excepturi ab 
+                        reprehenderit, illo sint eum facere laboriosam itaque. 
+                        Placeat consectetur rem deserunt laboriosam ex harum 
+                        necessitatibus. Et ipsa non ducimus quia fuga corporis 
+                        molestiae dolor quam? Soluta, officiis.
+                    </p>
+                    <p>
+                       Not begun condole vaunted are shades, childe happy flash 
+                       ere and birth, him had me by left one were. Land mammon 
+                       who shun by and the, to him sins care sins, would more 
+                       atonement he for mirthful, amiss where dear. 
+                    </p>
+                </article><!--
+                --><article class="col">
+                    <img src="assets/media/food1.jpg" alt="">
+                </article>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="container clearfix">
+                <h2>Available Options</h2>
+                <div class="row">
+                    <div class="img-col">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <img src="assets/media/food2.jpg" alt="">
+                    </div><!--
+                    --><div class="img-col">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <img src="assets/media/food3.jpg" alt="">
+                    </div><!--
+                --><div class="img-col">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                        <img src="assets/media/food4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="img-col">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <img src="assets/media/food5.jpg" alt="">
+                    </div><!--
+                --><div class="img-col">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                        <img src="assets/media/food6.jpg" alt="">
+                    </div><!--
+                --><div class="img-col">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                        <img src="assets/media/food7.jpg" alt="">
+                   </div>
+                </div>
+            </div>
+        </section>
+        <div class="empty"></div>
+    </main>
+    <footer class="footer">
+        <a href="#top">Back to Top</a>
+        <small class="small">&copy;Shishupal Kumar, 2021</small>
+    </footer>
+</body>
+</html>
